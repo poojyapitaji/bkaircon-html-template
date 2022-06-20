@@ -13,8 +13,24 @@ body {
   overflow-x: hidden;
 }
 
+.topbar {
+  background-color: #000000;
+}
+
+.topbar .sec-1 {
+  border-right: 1px solid white;
+}
+
+.topbar .sec-1 span,
+.topbar .sec-2 span {
+  color: white;
+  font-size: 12px;
+  font-family: CenturyGothicRegular;
+  letter-spacing: 0.09rem;
+}
+
 .nav-active {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .navbar .navbar-brand {
@@ -286,13 +302,13 @@ body {
 }
 
 .footer .container .row .sec-2 {
-    padding-right: 3rem;
-    flex: 1;
+  padding-right: 3rem;
+  flex: 1;
 }
 
 .footer .container .row .sec-2,
 .footer .container .row .sec-3 {
-    padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 .footer .container .row .sec-1,
@@ -334,5 +350,5 @@ body {
 }
 
 .footer .container .row .sec-3 div img {
-    height: 15px;
+  height: 15px;
 }
